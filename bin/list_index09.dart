@@ -6,4 +6,18 @@
     Returns:
         bool: return answer
 */
-void main() {}
+
+func(List list1){
+  int a=list1[0];
+  int i=1;
+  while(i<list1.length){
+    i++;
+    if(list1[i]!=a){
+      return false;
+    }
+    return true;
+  }
+}
+void main() {
+  print(func([1,1,4,1,1]));
+} 
