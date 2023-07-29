@@ -6,4 +6,10 @@
     Returns:
         list: return answer
 */
-void main() {}
+
+func(List list1){
+  return list1.last;
+}
+void main() {
+  print(func([5,6,'a',4]));
+}
