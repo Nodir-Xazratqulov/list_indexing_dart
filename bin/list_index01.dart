@@ -6,4 +6,10 @@
     Returns:
         list: return answer
 */
-void main() {}
+
+func(){
+  return [];
+}
+void main() {
+  print(func());
+}
