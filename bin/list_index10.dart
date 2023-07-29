@@ -6,4 +6,12 @@
     Returns:
         list: return answer
 */
-void main() {}
+
+func(List<int> list1){
+  int a = list1.first;
+  int b = list1.last;
+  return a>b ? a : b;
+}
+void main() {
+  print(func([1,2,3,4,5,5,6]));
+} 
