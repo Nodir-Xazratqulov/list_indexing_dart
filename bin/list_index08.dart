@@ -6,4 +6,21 @@
     Returns:
         list: return answer
 */
-void main() {}
+
+
+func(List a){
+  List x = [];
+  int i=0;
+  while (i<a.length) {
+    if (a[i]==0) {
+      x.add(false);
+    } else {
+      x.add(true);
+    }
+    i++;
+  }
+  return x;
+}
+void main() {
+  print(func([1,0,1,0,0,0]));
+}
